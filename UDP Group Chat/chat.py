@@ -26,7 +26,7 @@ def sendToAll1():  # This will sends a message to mentioned OS
 # Optional Extra Added
 def sendToAll2():   
     while True: # this will tune on even after sending message
-        x = input("")        # Type a messgae
+        message = input("")        # Type a messgae
         if message == "" or message == " ":
             print("You are trying to send Empty Message")
             print("If you wanna stop CPNVERSATION press CTRL+C")
