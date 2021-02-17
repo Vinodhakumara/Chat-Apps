@@ -25,7 +25,6 @@ def sendToAll1():  # This will sends a message to mentioned OS
         #s.sendto("{}".format(message).encode(), ("172.17.0.2", 2222))
         #s.sendto("{}".format(message).encode(), ("192.168.43.254", 1234))
         s.sendto("{}".format(message).encode(), ("192.168.43.89", 1234))
-        os.system("tput setaf 39")
                 
 # Sends Message If first thread is busy this helps like can sends multiple images or chats if one takes time to load than rest messages will be  sending
 # Optional Extra Added
